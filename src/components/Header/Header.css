@@ -1,0 +1,29 @@
+.header_ {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.header_ ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  justify-content: left
+}
+
+li {
+  padding: 10px;
+  transition: 0.3s all ease;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: black
+}

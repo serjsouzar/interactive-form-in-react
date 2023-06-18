@@ -1,0 +1,48 @@
+.form_field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+input {
+  width: 200px;
+}
+
+.post_{
+  height: 100px;
+  resize: none;
+}
+
+.submit-btn{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.submit-btn input {
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: darkcyan;
+  box-shadow: 2px 3px 5px ;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.submit-btn input:hover {
+  transform: scale(1.1);
+}
